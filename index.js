@@ -75,12 +75,12 @@ console.log(chalk.bold.white('              By : Orang\n\n'));
 
   counter = counter + 1;
 console.log(chalk.bold.gray(`
-[ ${chalk.bold.white(counter)} ]
-[ ${chalk.bold.white('Time')} ]: ${moment().format('HH:mm:ss')}
-[ ${chalk.bold.white('Username')} ] : ${username}
-[ ${chalk.bold.white('Country')} ] : ${country}
-[ ${chalk.bold.white('Trophy')} ] : ${trophy}
-[ ${chalk.bold.white('Crown')} ] : ${crown}`));
+[ ${chalk.bold.red(counter)} ]
+[ ${chalk.bold.red('Time')} ]: ${moment().format('HH:mm:ss')}
+[ ${chalk.bold.red('Username')} ] : ${username}
+[ ${chalk.bold.red('Country')} ] : ${country}
+[ ${chalk.bold.red('Trophy')} ] : ${trophy}
+[ ${chalk.bold.red('Crown')} ] : ${crown}`));
       await sleep(delay)
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`[ ! ] Account Got Banned `));
