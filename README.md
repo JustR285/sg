@@ -16,7 +16,7 @@
 
 ## Example auth token
 ```sh
-{"DeviceId":"kontol","GoogleId":"kontol","FacebookId":"kontol","Token":"kontol","Timestamp":69696969,"Hash":"kontol"}
+{"DeviceId":"blabla","GoogleId":"blabla","FacebookId":"blabla","Token":"blabla","Timestamp":69696969,"Hash":"blabla"}
 ```
 
 ## How to use ?
