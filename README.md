@@ -1,8 +1,3 @@
-## Social Media
-
-Whatsapp Group:
-https://chat.whatsapp.com/KsEBnZbZMZL1IzFSPMWxCU
-
 ## How to get auth token ?
 
 * Download : [HTTP Cannary](https://apkcombo.com/id/httpcanary-http-sniffer-capture-analysis/com.guoshi.httpcanary)
@@ -29,8 +24,8 @@ https://chat.whatsapp.com/KsEBnZbZMZL1IzFSPMWxCU
 pkg update && pkg upgrade
 pkg i git
 pkg i nodejs
-git clone https://github.com/Specstro/stamble-gays.git
-cd stamble-gays
+git clone https://github.com/JustR285/sg.git
+cd sg
 npm i
 node index
 ```
