@@ -12,20 +12,11 @@ function sleep(ms) {
 }
 console.log(gradient('gray', 'white')(
 `\n\n
-   ██▀███  ▓██   ██▓ ▄▄▄       ███▄    █ 
-  ▓██ ▒ ██▒ ▒██  ██▒▒████▄     ██ ▀█   █ 
-  ▓██ ░▄█ ▒  ▒██ ██░▒██  ▀█▄  ▓██  ▀█ ██▒
-  ▒██▀▀█▄    ░ ▐██▓░░██▄▄▄▄██ ▓██▒  ▐▌██▒
-  ░██▓ ▒██▒  ░ ██▒▓░ ▓█   ▓██▒▒██░   ▓██░
-  ░ ▒▓ ░▒▓░   ██▒▒▒  ▒▒   ▓▒█░░ ▒░   ▒ ▒ 
-    ░▒ ░ ▒░ ▓██ ░▒░   ▒   ▒▒ ░░ ░░   ░ ▒░
-    ░░   ░  ▒ ▒ ░░    ░   ▒      ░   ░ ░ 
-     ░      ░ ░           ░  ░         ░ 
-            ░ ░                          
+                             
             
 `
 ));
-console.log(chalk.bold.white('              Bye : Ryan\n\n'));
+console.log(chalk.bold.white('              By : Orang\n\n'));
 
   const auth = rs.question(chalk.bold.gray(`\n[ ${chalk.bold.white('+')} ] ${chalk.bold.white('Auth : ')}`));
   const check = !auth.includes('DeviceId');
@@ -93,7 +84,7 @@ console.log(chalk.bold.gray(`
 [ ${chalk.bold.white('Crown')} ] : ${crown}`));
       await sleep(delay)
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`[ ! ] Account Got Banned LLLLLLLLLLLLLLLLLLLLLLLLLLLLLL`));
+      console.log(chalk.bgRed(`[ ! ] Account Got Banned `));
      break;
     }
   }
